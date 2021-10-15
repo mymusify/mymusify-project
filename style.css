@@ -1,5 +1,19 @@
+#logo{
+    width: 20%;
+    position:relative;
+;
+    
+}
+#box{
+  display:flex;
+position:relative;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+width:970px;
 
 
+}
 #box2{
   display:flex;
 position:relative;
@@ -13,11 +27,19 @@ width:970px;
 #logo2{
   width: 60%;
   position:relative;
-;
   
 }
 
-
+#song{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(150, 20, 85, 0.5);
+  width:300px;
+  padding: 10px;
+  height:355px;
+  margin:30px;
+  border-radius: 20px;
+}
 #searchbar2{
   height:40px;
     border:lightslategray;
@@ -29,18 +51,32 @@ width:970px;
 #songimg{
   width:300px;
   border-radius: 25px;
+  max-height: 300px;
+  
 }
 #container{
   display:flex;
   justify-content: space-between;
 }
-
+#searchbar{
+  height:40px;
+    border:lightslategray;
+    font-size: 17px;
+    border-radius: 50px;
+    width: 33%;
+    
+  }
 #navbar{
   display:flex;
   flex-direction:reverse ;
   justify-content: space-between;
 }
-
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+       
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -74,4 +110,9 @@ ul {
     background-color: #555;
     color: white;
   }
-  
+  #genre{
+    display: none;
+  }
+  #description{
+    display: none;
+  }
