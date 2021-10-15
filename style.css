@@ -1,0 +1,117 @@
+#logo{
+    width: 20%;
+    position:relative;
+;
+    
+}
+#box{
+  display:flex;
+position:relative;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+width:970px;
+
+
+}
+#box2{
+  display:flex;
+position:relative;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+width:970px;
+
+
+}
+#logo2{
+  width: 60%;
+  position:relative;
+;
+  
+}
+
+#song{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(150, 20, 85, 0.5);
+  width:300px;
+  padding: 10px;
+  height:355px;
+  margin:30px;
+  border-radius: 20px;
+}
+#searchbar2{
+  height:40px;
+    border:lightslategray;
+    font-size: 17px;
+    border-radius: 50px;
+    width: 60%;
+    
+  }
+#songimg{
+  width:300px;
+  border-radius: 25px;
+}
+#container{
+  display:flex;
+  justify-content: space-between;
+}
+#searchbar{
+  height:40px;
+    border:lightslategray;
+    font-size: 17px;
+    border-radius: 50px;
+    width: 33%;
+    
+  }
+#navbar{
+  display:flex;
+  flex-direction:reverse ;
+  justify-content: space-between;
+}
+body{
+    background-image: url(./Images/Sans\ titre-1.png);
+    background-size: cover;
+    background-attachment: fixed;
+       
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+  min-height: 760px;
+    height:100%;
+  
+    background-color:rgba(18, 18, 87,0.7);
+    
+  }
+ li{
+   height:50px;
+   
+ } 
+  li a {
+    display: block;
+    color:white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  li a.active {
+    background-color:rgb(10, 10, 49);
+    color: white;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  #genre{
+    display: none;
+  }
+  #description{
+    display: none;
+  }
